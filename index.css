@@ -1,0 +1,50 @@
+
+.zagakovok{
+	position: absolute;
+	top: -3%;
+	color: #F3DF3F;
+	font-size: 30px;
+	border:10px solid #161719;
+	background-color: #161719;
+	word-spacing: 120px;
+	width: 100%;
+}
+.knopki{
+	text-decoration: none;
+	font-size: 100%;
+	user-select: none;
+	color: #F3DF3F;
+	text-align: center;
+}
+.shapka{
+	background-color: rgba(22,23,25, 0.9); 
+	color: #FFFFFF;
+	border-top: 15px solid #F3DF3F;
+	width: 550px;
+	font-size: 120%;
+	padding-left: 20px;
+	float:left;
+	position: absolute;
+	top: 45%;
+	left:3%;
+	border-radius: 15px;
+
+}
+#nignyy_chast{
+	color: #FFFFFF;
+	margin-left: 350px;
+	padding-left: 30px;
+	font-size: 20px;
+	width: 150px;
+	border-right: 20px solid #F3DF3F;
+	background-color: #161719;
+
+}
+
+#test1{
+	left: -109px;
+}
+.vverh{
+	position: absolute;
+
+}
