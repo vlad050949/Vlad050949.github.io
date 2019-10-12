@@ -22,7 +22,7 @@
 	border:10px solid #161719;
 	background-color: #161719;
 	word-spacing: 120px;
-	width: 100%;
+	width: 100vw;
 }
 .knopki{
 	text-decoration: none;
@@ -53,7 +53,6 @@
 	padding-left: 30px;
 	padding-right: 32px;
 	font-size: 100%;
-	width: 150px;
 	border-right: 20px solid #F3DF3F;
 	background-color: #161719;
 	text-decoration: none;
@@ -63,9 +62,7 @@
 #test1{
 	left: -109px;
 }
-.vverh{
-	position: absolute;
-}
+
 
 
 
@@ -105,8 +102,9 @@
 #readd{
 	position: relative;
     top: 130px;
-	left: 550px;
+	left: 491px;
 	color: #FFFFFF;
+	padding-left: 60px;
 	font-size: 80%;
 	border-right: 20px solid #F3DF3F;
 	background-color: #161719;
@@ -139,9 +137,52 @@
 	position: relative;
 	padding-left: 15px;
 	margin-right: 85vh;
+	border:1px solid #FFFFFF;
 }
 .tabl{
 	display: grid;
-	grid-template-columns: 
-	repeat(4, 1fr);
+	grid-template-columns: repeat(4, 1fr);
+	background-color: #FFFFFF;
+	padding-left: 5px;
+}
+.button{
+	border-right: 3px solid #EBEBEB;
+	padding-left: 30%;
+	padding-top: 10px;
+}
+.button:hover{
+	width: 90%;
+}
+.NPtxt{
+	padding-right: 10%;
+	padding-left: 5%;
+	color: #7E7E7E;
+}
+.NP{
+	color: #353535;
+	padding-left: 5%;
+}
+
+
+.wild{
+	position: relative;
+	bottom: 650px;
+	left: 10%;
+	border-top: 20px solid #F3DF3F;
+	width: 30vw;
+	font-size: 140%;
+	background-color: rgba(0, 0, 0, 0.7);
+	color:#FEFEFE;
+	padding-left: 40px;
+	padding-right: 30px;
+}
+.explore{
+	color: #FFFFFF;
+	margin-right: -30px;
+	padding-left: 60px;
+	margin-left: 420px;
+	font-size: 80%;
+	border-right: 20px solid #F3DF3F;
+	background-color: #161719;
+	text-decoration: none;
 }
