@@ -1,1 +1,1 @@
-https://console.cloud.yandex.ru/folders/b1gk4kejhkevb229n1ko/storage/bucket/vlad050949.githu.io
+http://vlad050949.githu.io.website.yandexcloud.net
