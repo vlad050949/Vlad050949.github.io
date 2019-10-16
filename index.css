@@ -1,4 +1,6 @@
-
+body{
+	background-image: url(не смотреть.PNG);
+}
 .a1{
 	background:url(1.png);
     background-position: center;
