@@ -1,3 +1,4 @@
+
 body{
 	background-image: url(vidi.png);
 }
@@ -131,20 +132,30 @@ body{
     margin-top: -4%;
 }
 .rchast{
+	position: relative;
+	bottom: 0;
 	margin-left: 50%;
 	background-color: #EBEBEB;
 	color: #444444;
 	font-size: 25px;
 	padding-top: 13px;
 }
-.canada{
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: "CANADA . . . . . . ." ". . . . . . . .";
+}
+
+.CANADA { grid-area: CANADA; 
 	background-color: #000000;
 	color: #F3DF3F;
 	position: relative;
 	padding-left: 15px;
-	margin-right: 85vh;
+	padding-right: 20px;
 	border:1px solid #FFFFFF;
 }
+
 .tabl{
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
@@ -197,11 +208,4 @@ body{
 	padding-left: 40px;
 	padding-right: 3%;
 	right: 0;
-}
-@media only screen  and (max-device-width: 375px){
-#explore{
-	margin-left: 49%;
-}
-.canada{
-	border-right: 130px solid #000000;
 }
