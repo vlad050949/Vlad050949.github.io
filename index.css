@@ -1,9 +1,9 @@
-
+ 
 body{
-	background-image: url(vidi.png);
+    background-image: url(vidi.png);
 }
 .a1{
-	background:url(1.png);
+    background:url(1.png);
     background-position: center;
     background-size: cover;
     width: 100%;
@@ -11,120 +11,107 @@ body{
     margin-top: -2%;
 }
 .a2{
-	background:url(2.png);
+    background:url(2.png);
     background-position: center;
     background-size: cover;
     width: 100%;
     height: 100vh;
 }
-
 .zagakovok{
-	position: relative;
-	top: 0%;
-	color: #F3DF3F;
-	font-size: 200%;
-	background-color: #161719;
-	word-spacing: 120px;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	border: 10px solid #161719;
+    position: relative;
+    top: 0%;
+    color: #F3DF3F;
+    font-size: 200%;
+    background-color: #161719;
+    word-spacing: 120px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    border: 10px solid #161719;
 }
 .knopki{
-	text-decoration: none;
-	font-size: 100%;
-	user-select: none;
-	color: #FFFFFF;
-	text-align: center;
+    text-decoration: none;
+    font-size: 100%;
+    user-select: none;
+    color: #FFFFFF;
+    text-align: center;
 }
 .knopki:hover{
-	border-bottom: 5px solid #F3DF3F;
+    border-bottom: 5px solid #F3DF3F;
 }
 .shapka{
-	background-color: rgba(22,23,25, 0.6); 
-	color: #FFFFFF;
-	border-top: 15px solid #F3DF3F;
-	width: 550px;
-	height: 310px;
-	font-size: 120%;
-	padding-left: 1%;
-	position: relative;
-	float:left;
-	float: top;
-	top:15%;
-	border-radius: 15px;
-
+    background-color: rgba(22,23,25, 0.6);
+    color: #FFFFFF;
+    border-top: 15px solid #F3DF3F;
+    font-size: 120%;
+    padding-left: 1%;
+    position: relative;
+    float:left;
+    float: top;
+    top:15%;
+    border-radius: 15px;
 }
 #nignyy_chast{
-	color: #FFFFFF;
-	margin-left: 350px;
-	padding-left: 30px;
-	padding-right: 32px;
-	font-size: 100%;
-	border-right: 20px solid #F3DF3F;
-	background-color: #161719;
-	text-decoration: none;
+    color: #FFFFFF;
+    float: right;
+    padding-left: 30px;
+    padding-right: 32px;
+    font-size: 100%;
+    border-right: 20px solid #F3DF3F;
+    background-color: #161719;
+    text-decoration: none;
 }
-
 
 #test1{
-	left: -109px;
+    left: -109px;
 }
-
-
-
-
-
-
-
+ 
+ 
+ 
 .shapka2{
-	float: right;
-	color: #FFFFFF;
-	border-top: 20px solid #F3DF3F;
-	background-color: rgba(22,23,25, 0.6);
-	width: 754px;
-	height: 569px;
-	position: relative;
-	top: 8%;
-	right: 8%;
-	font-size: 150%;
-	border-radius: 20px;
+    float: right;
+    color: #FFFFFF;
+    border-top: 20px solid #F3DF3F;
+    background-color: rgba(22,23,25, 0.6);
+    width: 754px;
+    height: 569px;
+    position: relative;
+    top: 8%;
+    right: 8%;
+    font-size: 150%;
+    border-radius: 20px;
 }
 .ins{
-	margin-left: -3%;
-	padding-left: 77px;
-	border-radius: 0px 0px 200px 0px;
-	font-family: 'FiraSans'
-
+    margin-left: -3%;
+    padding-left: 77px;
 }
 .instxt{
-	position: relative;
-	bottom: 390px;
-	color: black;
-	border:0px solid #FFFFFF;
-	padding-right: 200px;
-	padding-left: 5px;
-	padding-bottom: 135px;
-	font-size: 110%;
+    position: relative;
+    bottom: 390px;
+    color: black;
+    border:0px solid #FFFFFF;
+    padding-right: 200px;
+    padding-left: 5px;
+    padding-bottom: 135px;
+    font-size: 110%;
 }
 #readd{
-	position: relative;
-    top: 130px;
-	left: 491px;
-	color: #FFFFFF;
-	padding-left: 60px;
-	font-size: 80%;
-	border-right: 20px solid #F3DF3F;
-	background-color: #161719;
-	text-decoration: none;
+    color: #FFFFFF;
+    padding-left: 30px;
+    padding-right: 20px;
+    font-size: 80%;
+    border-right: 20px solid #F3DF3F;
+    background-color: #161719;
+    text-decoration: none;
+    margin-top: -30px;
+    z-index: 9999999;
+    position: absolute;
+    right: 0;
 }
-
-
-
-
-
+ 
+ 
 
  .a3{
- 	background:url(3.jpg);
+     background:url(3.jpg);
     background-position: center;
     background-size: cover;
     width: 100%;
@@ -132,80 +119,74 @@ body{
     margin-top: -4%;
 }
 .rchast{
-	position: relative;
-	bottom: 0;
-	margin-left: 50%;
-	background-color: #EBEBEB;
-	color: #444444;
-	font-size: 25px;
-	padding-top: 13px;
+    margin-left: 50%;
+    background-color: #EBEBEB;
+    color: #444444;
+    font-size: 25px;
+    padding-top: 13px;
 }
-.grid-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  grid-template-areas: "CANADA . . . . . . ." ". . . . . . . .";
+.canada{
+    background-color: #000000;
+    color: #F3DF3F;
+    position: relative;
+    padding-left: 15px;
+    margin-right: 85vh;
+    border:1px solid #FFFFFF;
 }
-
-.CANADA { grid-area: CANADA; 
-	background-color: #000000;
-	color: #F3DF3F;
-	position: relative;
-	padding-left: 15px;
-	padding-right: 20px;
-	border:1px solid #FFFFFF;
-}
-
 .tabl{
-	display: grid;
-	grid-template-columns: repeat(4, 1fr);
-	background-color: #FFFFFF;
-	padding-left: 5px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: #FFFFFF;
+    padding-left: 5px;
 }
 .button{
-	border-right: 3px solid #EBEBEB;
-	padding-left: 30%;
-	padding-top: 10px;
+    border-right: 3px solid #EBEBEB;
+    padding-left: 30%;
+    padding-top: 10px;
 }
 .button:hover{
-	width: 90%;
+    width: 90%;
 }
 .NPtxt{
-	padding-right: 10%;
-	padding-left: 5%;
-	color: #7E7E7E;
+    padding-right: 10%;
+    padding-left: 5%;
+    color: #7E7E7E;
 }
 .NP{
-	color: #353535;
-	padding-left: 5%;
+    color: #353535;
+    padding-left: 5%;
 }
-
-
-
+ 
 
 .wild{
-	position: relative;
-	bottom: 650px;
-	left: 10%;
-	border-top: 20px solid #F3DF3F;
-	width: 30%;
-	font-size: 25px;
-	background-color: rgba(0, 0, 0, 0.7);
-	color:#FEFEFE;
-	padding-left: 40px;
-	padding-right: 30px;
+    position: relative;
+    bottom: 650px;
+    left: 10%;
+    border-top: 20px solid #F3DF3F;
+    width: 30%;
+    font-size: 25px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color:#FEFEFE;
+    padding-left: 40px;
+    padding-right: 30px;
 }
 
-
 #explore{
-	position: absolute;
-	text-decoration: none;
-	color: #FFFFFF;
-	font-size: 100%;
-	border-right: 20px solid #F3DF3F;
-	background-color: #161719;
-	text-decoration: none;
-	padding-left: 40px;
-	padding-right: 3%;
-	right: 0;
+    position: absolute;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 100%;
+    border-right: 20px solid #F3DF3F;
+    background-color: #161719;
+    text-decoration: none;
+    padding-left: 40px;
+    padding-right: 3%;
+    right: 0;
+}
+@media only screen  and (max-device-width: 375px){
+#explore{
+    margin-left: 49%;
+}
+.canada{
+    border-right: 130px solid #000000;
 }
