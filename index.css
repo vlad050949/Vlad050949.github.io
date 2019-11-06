@@ -125,14 +125,20 @@ body{
     font-size: 25px;
     padding-top: 13px;
 }
-.canada{
-    background-color: #000000;
-    color: #F3DF3F;
-    position: relative;
-    padding-left: 15px;
-    margin-right: 85vh;
-    border:1px solid #FFFFFF;
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas: "CANADA . . . . . . ." ". . . . . . . ." ". . . . . . . .";
 }
+
+.CANADA { grid-area: CANADA; 
+	background-color: #000000;
+	color: #F3DF3F;
+	padding-left: 10px;
+	padding-right: 20px;
+}
+
 .tabl{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
