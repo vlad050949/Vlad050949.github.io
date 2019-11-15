@@ -113,6 +113,7 @@ body {
     font-size: 25px;
     padding-top: 13px;
 }
+<<<<<<< HEAD
 .page3_grid-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -127,6 +128,23 @@ body {
 	padding-right: 20px;
 }
 .page3_tabl{
+=======
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas: "CANADA . . . . . . ." ". . . . . . . ." ". . . . . . . .";
+}
+
+.CANADA { grid-area: CANADA; 
+	background-color: #000000;
+	color: #F3DF3F;
+	padding-left: 10px;
+	padding-right: 20px;
+}
+
+.tabl{
+>>>>>>> 7408cae299f1aa77a90e120da79d624f8a0d0f28
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     background-color: #FFFFFF;
