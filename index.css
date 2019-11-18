@@ -46,7 +46,7 @@ body{
     position: relative;
     top:15%;
     border-radius: 15px;
-    width: 30%
+    width: 30% 
 }
 #page1-botom{
     color: #FFFFFF;
@@ -99,7 +99,7 @@ body{
     right: 0;
 }
 .p3{
-     background:url(3.jpg);
+    background:url(3.jpg);
     background-position: center;
     background-size: cover;
     width: 100%;
@@ -173,10 +173,35 @@ body{
     padding-right: 3%;
     right: 0;
 }
-@media only screen  and (max-device-width: 375px){
-#explore{
-    margin-left: 49%;
+.page4-img{
+	margin-top: 1900px;
+	margin-left: 1000px;
 }
-.canada{
-    border-right: 130px solid #000000;
+@media only screen  and (max-device-height: 415px){
+.page1-txt{
+    top:3%;
+    width: 60%
+}
+.page2-rchat{
+    height: 410px;
+    top: 1%;
+}
+.page2-img{
+	margin-top: -158px;
+	width: 700px;
+}
+.page3-rpart{
+    margin-left: 30%;
+    font-size: 20px;
+    padding-top: 0px;
+}
+.map{
+	height: 153px;
+}
+.page3-wild{
+	bottom: 550px;
+    left: 0%;
+    width: 23%;
+    font-size: 22px;
+}
 }
